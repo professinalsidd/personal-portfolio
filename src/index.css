@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.css-w7uo4b-MuiChip-root {
+  background-color: white !important;
+}
