@@ -51,10 +51,11 @@ export const aboutContent = [
 ];
 
 export const description = {
-  des: `I am a Frontend Developer with over ${calculateExperience(
+  des: `I am a dedicated Frontend Developer with ${calculateExperience(
     "2021-09-06"
-  )} years of experience, specializing in React.js and React Native. I graduated in 2020 with a Bachelor of Computer Applications (BCA) from CCS University, Meerut. To further enhance my skills, I completed Dr. Angela Yu's Web Development Bootcamp on Udemy, which provided me with a solid foundation in web technologies.
-  Over the course of my career, I have successfully completed 31+ projects, ranging from dynamic web applications to mobile apps. My expertise lies in creating responsive and intuitive user interfaces, ensuring that each project delivers a seamless user experience. I am committed to staying updated with the latest trends in frontend development, continuously honing my skills to provide innovative solutions.`,
+  )} years of hands-on experience in crafting responsive and interactive web and mobile applications. After completing my Bachelor of Computer Applications (BCA) in 2020, I embarked on my development journey, gaining expertise in React.js, Material UI, TypeScript, and React Native.
+
+With a strong foundation in both frontend technologies and mobile development, I am passionate about delivering high-quality, user-friendly digital experiences. My continuous learning mindset is demonstrated by completing specialized courses in React Native and Web Development.`,
 };
 
 // Education section data
@@ -85,10 +86,12 @@ export const experienceData = [
     period: "AUG. 2023 – FEB. 2024",
     role: "FRONTEND DEVELOPER",
     details: [
-      "Developed and maintained a mobile application using React Native, incorporating multiple screens with seamless navigation via react-navigation.",
-      "Spearheaded UI redesign efforts, enhancing user experience and engagement.",
-      "Implemented API integration utilizing Axios, ensuring efficient data retrieval and management.",
-      "Leveraged React Native Paper Library and Redux Saga for streamlined development processes.",
+      "Developed mobile applications using React Native CLI.",
+      "Implemented advanced UI components using React Native Paper.",
+      "Managed state and side effects with Redux-Saga.",
+      "Integrated camera functionality into mobile apps.",
+      "Designed and developed HTML/CSS website templates.",
+      "Collaborated on UI/UX design using Figma.",
     ],
     technologies: "React Native, Redux, React.js, Rest API",
   },
@@ -100,16 +103,18 @@ export const experienceData = [
       {
         name: "MOBILE APP | DANK GLOBAL",
         details: [
-          "Collaborated on projects involving API integration using Axios and adhered to established code structures.",
-          "TypeScript and React Native to deliver robust solutions for diverse client requirements.",
+          "Developed a mobile application for Dank using React Native CLI.",
+          "Implemented TypeScript for robust and maintainable code.",
+          "Collaborated with cross-functional teams to deliver a high-quality product.",
         ],
         technologies: "React Native, Rest API",
       },
       {
         name: "WEB APP | JOIN GLOBAL",
         details: [
-          "Material UI for designing intuitive user interfaces.",
-          "Integrated APIs seamlessly using Axios for enhanced functionality and performance.",
+          "Worked on Material UI and React.js to build user-friendly interfaces.",
+          "Implemented TypeScript for robust and maintainable code.",
+          "Collaborated with cross-functional teams to deliver a high-quality product.",
         ],
         technologies: "React.js, Rest API",
       },
@@ -298,21 +303,21 @@ export const projects = [
     ],
     link: "https://next-gen-coder-program-web.vercel.app/",
   },
-  {
-    title: "Food Web",
-    description:
-      "A sleek and modern website for food enthusiasts, showcasing a variety of recipes and culinary tips. The site is built with React.js and JavaScript, offering a seamless user experience with interactive elements and a clean design.",
-    image: FoodWebImg,
-    technologies: ["React Js", "JavaScript"],
-    link: "https://github.com/jsidd06/react-food-website",
-  },
+  // {
+  //   title: "Food Web",
+  //   description:
+  //     "A sleek and modern website for food enthusiasts, showcasing a variety of recipes and culinary tips. The site is built with React.js and JavaScript, offering a seamless user experience with interactive elements and a clean design.",
+  //   image: FoodWebImg,
+  //   technologies: ["React Js", "JavaScript"],
+  //   link: "https://github.com/professinalsidd/meals-app",
+  // },
   {
     title: "Expense Tracker App",
     description:
       "A mobile app designed to help users manage their finances by tracking expenses. Built with React Native, it offers an intuitive interface and real-time updates, making it easy to keep track of spending on the go.",
     image: ExpenseAppImg,
     technologies: ["React Native", "JavaScript"],
-    link: "https://github.com/jsidd06/the-expense-tracker-app",
+    link: "https://github.com/professinalsidd/the-expense-tracker-app",
   },
   {
     title: "Food App",
@@ -320,7 +325,7 @@ export const projects = [
       "A mobile application that allows users to explore a variety of meals and recipes. The app is built with React Native, offering a user-friendly interface with smooth navigation and rich content display.",
     image: FoodImg,
     technologies: ["React Native", "JavaScript"],
-    link: "https://github.com/jsidd06/meals-app",
+    link: "https://github.com/professinalsidd/meals-app",
   },
   {
     title: "Panorama App",
@@ -328,7 +333,7 @@ export const projects = [
       "A mobile app that provides users with an immersive panoramic viewing experience. Developed with React Native and TypeScript, it offers advanced features like image stitching and interactive controls.",
     image: PanoramaImg,
     technologies: ["React Native", "Typescript"],
-    link: "https://github.com/jsidd06/Panorama",
+    link: "https://github.com/professinalsidd/panorama",
   },
   {
     title: "Blog Web",
@@ -336,7 +341,7 @@ export const projects = [
       "A minimalist blog platform where users can write, edit, and publish articles. Built with EJS and JavaScript, the site is designed for simplicity and ease of use, with a clean, distraction-free interface.",
     image: BlogImg,
     technologies: ["EJS", "JavaScript", "CSS"],
-    link: "https://github.com/jsidd06/R-Wblog",
+    link: "https://github.com/professinalsidd/blog-web-ejs",
   },
   {
     title: "Guess Game App",
@@ -344,7 +349,7 @@ export const projects = [
       "A fun and engaging mobile game where users guess the correct number in a series of rounds. The app is built with React Native and JavaScript, featuring a smooth and responsive user interface.",
     image: GameImg,
     technologies: ["React Native", "JavaScript"],
-    link: "https://github.com/jsidd06/guess-game",
+    link: "https://github.com/professinalsidd/guess-game-app",
   },
   {
     title: "Beans App",
@@ -352,16 +357,16 @@ export const projects = [
       "A productivity app designed to help users manage their daily tasks efficiently. Built with React Native and TypeScript, it features a clean design, task tracking, and reminders to boost productivity.",
     image: BeansImg,
     technologies: ["React Native", "TypeScript"],
-    link: "https://github.com/jsidd06/beans-app",
+    link: "https://github.com/professinalsidd/beans-app",
   },
-  {
-    title: "Ecommerce Web",
-    description:
-      "A full-fledged eCommerce platform built with ReactJS, NodeJS, and MongoDB. The site features a robust shopping cart, user authentication, and a powerful backend using Redux for state management.",
-    image: EcomerceImg,
-    technologies: ["ReactJS", "NodeJS express", "MongoDb", "Redux"],
-    link: "https://github.com/jsidd06/rose-store",
-  },
+  // {
+  //   title: "Ecommerce Web",
+  //   description:
+  //     "A full-fledged eCommerce platform built with ReactJS, NodeJS, and MongoDB. The site features a robust shopping cart, user authentication, and a powerful backend using Redux for state management.",
+  //   image: EcomerceImg,
+  //   technologies: ["ReactJS", "NodeJS express", "MongoDb", "Redux"],
+  //   link: "https://github.com/jsidd06/rose-store",
+  // },
   {
     title: "Sahej App",
     description:
@@ -401,25 +406,25 @@ export const socialLinks = [
     label: "LinkedIn",
     icon: "fa-brands fa-linkedin",
     color: "#0A66C2",
-    url: "https://www.linkedin.com/in/contact-siddharth-jain/",
+    url: "https://www.linkedin.com/in/professional-siddharth-jain/",
   },
   {
     label: "Facebook",
     icon: "fa-brands fa-facebook",
     color: "#4267B2",
-    url: "https://www.facebook.com/sidd.jain.90",
+    url: "https://www.facebook.com/sidd.professional",
   },
   {
     label: "Instagram",
     icon: "fa-brands fa-instagram",
     color: "#C13584",
-    url: "https://www.instagram.com/siddharth_coder",
+    url: "https://www.instagram.com/sidd.professional/",
   },
   {
     label: "X",
     icon: "fa-brands fa-twitter",
     color: "#1DA1F2",
-    url: "https://x.com/codesiddharth",
+    url: "https://x.com/sidd_vip",
   },
   {
     label: "WhatsApp",
@@ -431,6 +436,6 @@ export const socialLinks = [
     label: "Email",
     icon: "fa-solid fa-envelope",
     color: "#EA4335",
-    url: "mailto:jsidd06@gmail.com",
+    url: "mailto:professionalsiddmail@gmail.com",
   },
 ];
