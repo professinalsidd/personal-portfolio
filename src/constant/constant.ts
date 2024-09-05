@@ -301,7 +301,7 @@ export const projects = [
       "Framer-motion",
       "Typescript",
     ],
-    link: "https://next-gen-coder-program-web.vercel.app/",
+    link: "https://nextgencodersprogram.online/",
   },
   // {
   //   title: "Food Web",
